@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Guide | Travel Sri Lanka</title>
+    <meta name="description" content="Complete travel guide to Sri Lanka: best time to travel, visa process, and how to get around.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body data-page="inner" class="antialiased font-sans bg-slate-50 text-slate-900">
+
+    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 glass shadow-sm py-4 text-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <a href="index.html" class="font-serif text-2xl font-bold tracking-wider">Travel<span class="text-blue-600">SriLanka</span></a>
+                </div>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="index.html" class="hover:text-blue-600 transition-colors font-medium">Home</a>
+                    <a href="destinations.html" class="hover:text-blue-600 transition-colors font-medium">Destinations</a>
+                    <a href="food.html" class="hover:text-blue-600 transition-colors font-medium">Food</a>
+                    <a href="guide.html" class="text-blue-600 font-medium">Travel Guide</a>
+                    <a href="articles.html" class="hover:text-blue-600 transition-colors font-medium">Eco Tourism</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-slate-900 focus:outline-none">
+                        <svg id="menu-icon-open" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                        <svg id="menu-icon-close" class="hidden w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-xl absolute w-full top-full left-0 border-t border-slate-100">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-slate-800">
+                <a href="index.html" class="block px-3 py-2 rounded-md font-medium hover:bg-slate-50">Home</a>
+                <a href="destinations.html" class="block px-3 py-2 rounded-md font-medium hover:bg-slate-50">Destinations</a>
+                <a href="food.html" class="block px-3 py-2 rounded-md font-medium hover:bg-slate-50">Food</a>
+                <a href="guide.html" class="block px-3 py-2 rounded-md font-medium text-blue-600 bg-blue-50">Travel Guide</a>
+                <a href="articles.html" class="block px-3 py-2 rounded-md font-medium hover:bg-slate-50">Eco Tourism</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="pt-32 pb-16 bg-blue-900 relative overflow-hidden">
+        <div class="absolute inset-0 z-0 opacity-20">
+            <img src="images/beach.png" alt="Travel" class="w-full h-full object-cover">
+        </div>
+        <div class="max-w-7xl mx-auto px-4 relative z-10 text-center animate-on-scroll">
+            <h1 class="text-4xl md:text-5xl font-serif font-bold text-white mb-4">Essential Travel Guide</h1>
+            <p class="text-blue-100 text-lg max-w-2xl mx-auto">Everything you need to know to plan the perfect trip to Sri Lanka: visa process, seasonal weather, and transportation.</p>
+        </div>
+    </header>
+
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+                
+                <!-- Visa Process -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover-lift animate-on-scroll">
+                    <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                    </div>
+                    <h2 class="text-2xl font-serif font-bold text-slate-800 mb-4">Visa Process</h2>
+                    <p class="text-slate-600 mb-4">Most nationalities require an Electronic Travel Authorization (ETA) prior to arrival. It is a simple online process.</p>
+                    <ul class="space-y-2 text-slate-600 text-sm mb-6 list-disc list-inside">
+                        <li>Valid for 30 days</li>
+                        <li>Apply online via official portal</li>
+                        <li>Passport must be valid for 6 months</li>
+                    </ul>
+                    <a href="#" class="text-blue-600 font-medium hover:text-blue-700">Official ETA Portal &rarr;</a>
+                </div>
+
+                <!-- Best Time -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover-lift animate-on-scroll" style="transition-delay: 100ms;">
+                    <div class="w-16 h-16 bg-amber-100 text-amber-600 rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                    </div>
+                    <h2 class="text-2xl font-serif font-bold text-slate-800 mb-4">Best Time to Travel</h2>
+                    <p class="text-slate-600 mb-4">Sri Lanka is a year-round destination, but the best time depends on which coast you want to visit due to two monsoons.</p>
+                    <ul class="space-y-3 text-slate-600 text-sm">
+                        <li><strong class="text-slate-800 block">West & South Coasts:</strong> Dec to March</li>
+                        <li><strong class="text-slate-800 block">East Coast:</strong> May to September</li>
+                        <li><strong class="text-slate-800 block">Hill Country:</strong> Dec to March (cool and dry)</li>
+                    </ul>
+                </div>
+
+                <!-- Getting Around -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover-lift animate-on-scroll" style="transition-delay: 200ms;">
+                    <div class="w-16 h-16 bg-emerald-100 text-emerald-600 rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path></svg>
+                    </div>
+                    <h2 class="text-2xl font-serif font-bold text-slate-800 mb-4">How to Travel</h2>
+                    <p class="text-slate-600 mb-4">Getting around is part of the adventure. There are multiple ways to explore the island.</p>
+                    <ul class="space-y-2 text-slate-600 text-sm">
+                        <li><strong class="text-slate-800">Trains:</strong> Scenic and cheap (especially Kandy to Ella)</li>
+                        <li><strong class="text-slate-800">Tuk-tuks:</strong> Perfect for short coastal trips. Remember to negotiate!</li>
+                        <li><strong class="text-slate-800">Buses:</strong> Extensive network, very affordable but can be crowded.</li>
+                        <li><strong class="text-slate-800">Private Driver:</strong> Best for comfort and flexibility.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Template -->
+    <footer class="bg-slate-900 text-slate-400 py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div class="col-span-1 md:col-span-1">
+                <a href="index.html" class="font-serif text-2xl font-bold text-white tracking-wider mb-4 block">Travel<span class="text-blue-500">SriLanka</span></a>
+                <p class="text-sm mt-4">Your ultimate premium guide to discovering the rich culture, majestic wildlife, and pure beauty of Sri Lanka.</p>
+            </div>
+            <div>
+                <h4 class="text-white font-semibold mb-4 uppercase text-sm tracking-wider">Explore</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="destinations.html" class="hover:text-blue-400 transition-colors">Places to Visit</a></li>
+                    <li><a href="food.html" class="hover:text-blue-400 transition-colors">Best Food to Eat</a></li>
+                    <li><a href="guide.html" class="hover:text-blue-400 transition-colors">Travel Routes</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-semibold mb-4 uppercase text-sm tracking-wider">Essential Info</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="guide.html" class="hover:text-blue-400 transition-colors">Visa Process</a></li>
+                    <li><a href="guide.html" class="hover:text-blue-400 transition-colors">Best Time to Travel</a></li>
+                    <li><a href="articles.html" class="hover:text-blue-400 transition-colors">Sustainable Tourism</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-semibold mb-4 uppercase text-sm tracking-wider">Connect</h4>
+                <p class="text-sm mb-4">Join our newsletter to get updates.</p>
+                <div class="flex">
+                    <input type="email" placeholder="Email Address" class="bg-slate-800 text-white px-4 py-2 rounded-l-md focus:outline-none focus:ring-1 focus:ring-blue-500 w-full">
+                    <button class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-r-md transition-colors">Join</button>
+                </div>
+            </div>
+        </div>
+        <div class="text-center text-sm mt-12 pt-8 border-t border-slate-800">
+            <p>&copy; 2026 Travel Sri Lanka. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
